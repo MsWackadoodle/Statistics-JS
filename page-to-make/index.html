@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>StatHelper</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
+
+	<script type="text/javascript" src='js/qury.js'></script>
+	
+</head>
+<body>
+<header>
+	<div class="container">
+		<h1>Hi. I am a Helper.</h1>
+		<h2 class=" head-h">My maker built me to help humans when they have to analyze simple data for statistics' sake.</h2>
+		<h3 class=" head-h">You are mostly welcome.</h2>
+		<div class='slid '></div>
+		<div class='slid '></div>
+	</div>
+</header>
+<main>
+	<div class="container">
+		<h3 class=" ">What would you like me to do?</h3>
+		<div class="col-md-4 ">
+			<form action="index_submit" method="get" accept-charset="utf-8">
+				<button type='button'>Measure dependence using Spearman's rho</button>
+				<button type='button'>Sort out a table if it's got tied vars</button>
+			</form>
+		</div>
+		<div class="col-md-4">
+			<form action="submit">
+				<label for="A"></label>
+				<input type="submit" name="sp1" value="something" id='inpTA1'>
+				<input type="submit" name="sp2" value="something" id='inpTA2'>
+				<label for="A">Data A</label>
+				<textarea name="A" class='myTA'></textarea>
+				<label for="B">Data B</label>
+				<textarea name="b" class='myTA'></textarea>
+			</form>
+		</div>
+	</div>
+</main>
+</body>
+</html>
